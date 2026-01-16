@@ -17,6 +17,12 @@
         "tab": "Help Center",
         "groups": [
           {
+            "group": "Overview",
+            "pages": [
+              "en/index"
+            ]
+          },
+          {
             "group": "FAQ For Investors",
             "pages": [
               {
