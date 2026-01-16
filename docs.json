@@ -1,68 +1,168 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mint Starter Kit",
+  "name": "Spring Help Center",
+  "appearance": {
+    "default": "dark"
+  },
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#00D1B2",
+    "light": "#00D1B2",
+    "dark": "#0D1F22"
   },
   "favicon": "/favicon.svg",
   "navigation": {
     "tabs": [
       {
-        "tab": "Guides",
+        "tab": "Help Center",
         "groups": [
           {
-            "group": "Getting started",
+            "group": "FAQ For Investors",
             "pages": [
-              "index",
-              "quickstart",
-              "development"
+              {
+                "group": "Investing",
+                "pages": [
+                  "en/articles/7192177-which-wallet-providers-can-i-use",
+                  "en/articles/6999757-best-practices-for-wallet-setup"
+                ]
+              },
+              {
+                "group": "KYC Troubleshooting",
+                "pages": [
+                  "en/articles/7965786-how-to-complete-the-kyc-process",
+                  "en/articles/8736254-accepted-ids-for-kyc",
+                  "en/articles/7965815-why-is-my-kyc-failed-or-declined",
+                  "en/articles/7965840-why-is-my-kyc-pending-and-how-do-i-proceed",
+                  "en/articles/6996315-best-practices-for-a-successful-verification"
+                ]
+              },
+              {
+                "group": "Distributions",
+                "pages": [
+                  "en/articles/7953886-how-to-change-the-wallet-you-receive-tokens-on",
+                  "en/articles/7956676-how-can-i-see-when-i-get-the-next-distribution-in-a-deal",
+                  "en/articles/7976118-how-can-i-see-which-wallet-i-will-receive-tokens-on",
+                  "en/articles/9920954-how-to-claim-your-tokens-on-the-spring-platform"
+                ]
+              },
+              {
+                "group": "Investor Portal",
+                "pages": [
+                  "en/articles/6995886-investor-portal-101",
+                  "en/articles/7954027-an-allocation-is-missing-in-my-investor-portal-what-do-i-do",
+                  "en/articles/7977204-logging-in-to-the-investor-portal",
+                  "en/articles/9859132-how-to-use-spring-on-mobile",
+                  "en/articles/10486625-adding-verified-wallets"
+                ]
+              },
+              {
+                "group": "Security",
+                "pages": [
+                  "en/articles/7954024-a-wallet-i-have-contributed-with-has-been-hacked-what-do-i-do"
+                ]
+              },
+              {
+                "group": "OTC Trading",
+                "pages": [
+                  "en/articles/8337547-otc-trading-101"
+                ]
+              }
             ]
           },
           {
-            "group": "Customization",
+            "group": "Fundraising",
             "pages": [
-              "essentials/settings",
-              "essentials/navigation"
+              {
+                "group": "Fundraising Basics",
+                "pages": [
+                  "en/articles/7044284-setting-up-a-fundraise",
+                  "en/articles/7003092-which-currencies-can-you-use-to-raise-funds",
+                  "en/articles/7044254-what-do-the-different-statuses-mean-in-your-admin-portal",
+                  "en/articles/7952687-does-spring-support-fiat-investments",
+                  "en/articles/7977240-how-are-fees-calculated-on-contributions"
+                ]
+              },
+              {
+                "group": "Wallets",
+                "pages": [
+                  "en/articles/7974931-does-spring-have-multi-sig-support",
+                  "en/articles/7977233-can-i-have-multiple-fundraising-wallets-in-a-deal"
+                ]
+              }
             ]
           },
           {
-            "group": "Writing content",
+            "group": "Allocation Management",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
+              {
+                "group": "Import & Export",
+                "pages": [
+                  "en/articles/6998840-how-to-import-past-deals-into-spring",
+                  "en/articles/7952496-how-to-export-a-spreadsheet-of-your-allocation-management"
+                ]
+              },
+              {
+                "group": "Refunds",
+                "pages": [
+                  "en/articles/7054141-how-to-do-refunds-on-the-spring-platform"
+                ]
+              },
+              {
+                "group": "Allocation Management",
+                "pages": [
+                  "en/articles/7007612-how-to-manage-investors-inside-a-deal",
+                  "en/articles/7973450-what-is-an-account-wallet",
+                  "en/articles/9921147-how-to-set-up-tiers-on-your-platform"
+                ]
+              },
+              {
+                "group": "Investor Management",
+                "pages": [
+                  "en/articles/7953936-an-investor-is-unable-to-view-an-allocation-in-their-investor-portal-how-should-i-proceed",
+                  "en/articles/7952585-how-to-manually-add-an-investor-to-a-deal",
+                  "en/articles/7954008-an-investor-s-wallet-has-been-hacked-what-should-i-do",
+                  "en/articles/10485730-access-control"
+                ]
+              }
             ]
           },
           {
-            "group": "AI tools",
+            "group": "OTC Marketplace",
             "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "API reference",
-        "groups": [
-          {
-            "group": "API documentation",
-            "pages": [
-              "api-reference/introduction"
+              "en/articles/7977089-how-to-get-started-with-otc-trading-on-your-platform"
             ]
           },
           {
-            "group": "Endpoint examples",
+            "group": "Token Vesting & Distribution",
             "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+              "en/articles/6995958-what-chains-can-i-distribute-tokens-from",
+              "en/articles/7956654-distribute-tokens-on-non-evm-chains",
+              "en/articles/7976123-token-distribution-with-spring",
+              "en/articles/7977220-how-to-send-tokens-to-claiming",
+              "en/articles/8010378-how-do-i-set-up-a-vesting-schedule"
+            ]
+          },
+          {
+            "group": "Compliance",
+            "pages": [
+              {
+                "group": "Compliance basics",
+                "pages": [
+                  "en/articles/7931107-what-is-kyc",
+                  "en/articles/7931072-why-is-identity-verification-important",
+                  "en/articles/7931119-what-is-money-laundering",
+                  "en/articles/7931224-what-is-aml",
+                  "en/articles/7931227-what-is-ctf",
+                  "en/articles/7931113-what-is-sanctions-screening",
+                  "en/articles/7931232-what-is-corruption",
+                  "en/articles/7931235-what-is-a-pep-and-why-is-it-important",
+                  "en/articles/7931115-what-is-adverse-media-screening",
+                  "en/articles/7931116-what-is-on-chain-transaction-screening",
+                  "en/articles/9921112-which-countries-are-excluded-from-the-spring-platform",
+                  "en/articles/9921119-which-compliance-features-does-spring-offer",
+                  "en/articles/9921138-accepted-ids-for-kyb"
+                ]
+              }
             ]
           }
         ]
@@ -71,52 +171,34 @@
     "global": {
       "anchors": [
         {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
+          "anchor": "Spring",
+          "href": "https://spring.net",
+          "icon": "globe"
         }
       ]
     }
   },
   "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "light": "/logo/spring-logo.png",
+    "dark": "/logo/spring-logo.png"
   },
   "navbar": {
     "links": [
       {
         "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "href": "mailto:support@spring.net"
       }
     ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "label": "Go to Spring",
+      "href": "https://spring.net"
     }
-  },
-  "contextual": {
-    "options": [
-     "copy",
-     "view",
-     "chatgpt",
-     "claude",
-     "perplexity",
-     "mcp",
-     "cursor",
-     "vscode"
-   ]
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "x": "https://x.com/springdotnet",
+      "linkedin": "https://linkedin.com/company/80284087"
     }
   }
 }
