@@ -11,17 +11,12 @@
     "dark": "#0D1F22"
   },
   "favicon": "/favicon.svg",
+  "homepage": "index",
   "navigation": {
     "tabs": [
       {
         "tab": "Help Center",
         "groups": [
-          {
-            "group": "Overview",
-            "pages": [
-              "en/index"
-            ]
-          },
           {
             "group": "FAQ For Investors",
             "pages": [
