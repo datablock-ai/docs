@@ -184,12 +184,6 @@
     "dark": "/logo/spring-logo.png"
   },
   "navbar": {
-    "links": [
-      {
-        "label": "Support",
-        "href": "mailto:support@spring.net"
-      }
-    ],
     "primary": {
       "type": "button",
       "label": "Go to Spring",
